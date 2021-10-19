@@ -40,6 +40,9 @@
 		// Why? It's because that is an array reference, not an array copy. They both point to the same array!
 
 		// So, how do we fix this? We take a copy instead!
+		const team2 = players.slice();
+		team2[2] = 'Miro';
+		console.log(players, team, team2);
 
 		// one way
 
