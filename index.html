@@ -78,6 +78,8 @@
 		console.log(person, captain);
 
 		// how do we take a copy instead?
+		const captain2 = Object.assign({}, person, {number: 73});
+		console.log(person, captain2);
 
 		// We will hopefully soon see the object ...spread
 
